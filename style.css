@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredericka+the+Great&family=Press+Start+2P&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredericka+the+Great&family=Press+Start+2P&family=Rubik+Iso&display=swap');
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    a.emula::after {
+        content: '\00A0\1F4E5';
+        }
+
+    a.externo::after {
+            content: '\00A0\1F587';
+            }  
+    body {
+        background-color:black;
+    }
+    
+    #cabecalho{
+        border-style: 1px 1px 0px 1px;
+        border-color: #F24405;
+        
+    }
+
+    header {
+        background-color:#010024;
+        font-family: 'Rubik Iso', cursive;
+        font-size: 3em;
+        text-align:center;
+        padding: 30px;
+        color: #FC1E00;
+    
+
+    }
+    nav{
+        background-color:#010024;
+        font-family: 'Rubik Iso', cursive;
+        font-size: 20px;
+        text-align:center;
+
+        
+
+    }
+
+    nav > a {
+       margin: 20px;  
+       color: white;
+    }
+
+    .emula{
+        font-size: 30px;
+    }
+    
+    nav > a:hover {
+        background-color:#2D61A1;
+        color:#010024;
+        text-decoration: underline;
+        border-radius: 5px;
+        text-decoration: underline;
+    }
+
+    div main {
+        border-style: solid;
+        border-color: #F24405;
+    }
+
+    main{
+        background-color: white;
+        max-width: 800px;
+        margin: auto;
+    
+        
+    }
+
+   
+    main > article> picture > img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+
+    main img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main h1 {
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 3em;
+        color:#1E82D9;
+        text-align: center;
+        margin: 5px;
+    }
+    main h2{
+        background-color: #F24405;
+        font-family:'Fredericka the Great', cursive;
+        text-indent: 30px;
+    }
+    main p {
+        font-family: Arial, Helvetica, sans-serif;
+
+        margin: 20px;
+    }
+    #sonic {
+        background-color: #032973;
+        color: yellow;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 5px;
+    }
+    #alex {
+        background-color: #032973;
+        color: #F24405;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 5px;
+    }   
+ 
+    #sf{
+        background-color: #032973;
+        color:  #FC1E00;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;  
+         padding:5px;  }
+    footer {
+        background-color:#010024;
+        text-align: center;
+        color: #FC1E00;
+    }
+    
+    footer a {
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    
+    }
+    
+    footer  a:hover {
+        background-color:#2D61A1;
+        color:#010024;
+        text-decoration: underline;
+    
+    }
