@@ -18,10 +18,9 @@
         background-color:black;
     }
     
-    #cabecalho{
-        border-style: 1px 1px 0px 1px;
-        border-color: #F24405;
-        
+
+    #header{
+     border: 2px solid  #F24405;
     }
 
     header {
@@ -31,6 +30,7 @@
         text-align:center;
         padding: 30px;
         color: #FC1E00;
+        
     
 
     }
@@ -62,8 +62,10 @@
     }
 
     div main {
-        border-style: solid;
-        border-color: #F24405;
+        
+        border-left: 2px solid #F24405;
+        border-right: 2px solid #F24405 ;
+        border-bottom: 2px solid #F24405;
     }
 
     main{
