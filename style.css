@@ -104,8 +104,10 @@
     }
     main p {
         font-family: Arial, Helvetica, sans-serif;
-        margin: 20px;
+        text-align: justify;
+        text-indent: 30px;
         line-height: 1.5;
+        margin: 20px;
     }
     #sonic {
         background-color: #032973;
